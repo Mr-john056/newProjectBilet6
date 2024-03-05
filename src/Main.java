@@ -13,10 +13,10 @@ public class Main {
             }
         }
         catch (FileNotFoundException e) {
-            System.out.println("Файл не найден: " + e.getMessage());
+            System.out.println("Файл не найден:" + e.getMessage());
         }
         catch (IOException e) {
-            System.out.println("Ошибка чтения файла: " + e.getMessage());
+            System.out.println("Ошибка чтения файла:" + e.getMessage());
         }
     }
 }
